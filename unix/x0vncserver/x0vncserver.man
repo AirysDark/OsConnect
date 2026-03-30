@@ -337,7 +337,7 @@ also be in PEM format.
 .BR Xvnc (1),
 .BR vncpasswd (1),
 .br
-https://www.OsConnect.org/
+https://www.tigervnc.org/
 
 .SH AUTHOR
 Constantin Kaplinsky and others.

@@ -378,7 +378,7 @@ and -once, the Xvnc and associated X clients will die when the user logs out of
 the X session in the normal way.  It is important to use a VNC password in this
 case.  A typical entry in inetd.conf might be:
 
-5951   stream   tcp wait   james     /usr/local/bin/Xvnc Xvnc -inetd -query localhost -once passwordFile=/home/james/.config/OsConnect/passwd
+5951   stream   tcp wait   james     /usr/local/bin/Xvnc Xvnc -inetd -query localhost -once passwordFile=/home/james/.config/tigervnc/passwd
 
 In fact typically, you would have one entry for each user who uses VNC
 regularly, each of whom has their own dedicated TCP port which they use.  In
@@ -397,7 +397,7 @@ created automatically the next time he connects.
 .BR Xserver (1),
 .BR inetd (1)
 .br
-https://www.OsConnect.org
+https://www.tigervnc.org
 
 .SH AUTHOR
 Tristan Richardson, RealVNC Ltd. and others.

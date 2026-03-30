@@ -75,7 +75,7 @@ extern char buildtime[];
 
 #define XVNCVERSION "TigerVNC 1.16.80"
 #define XVNCCOPYRIGHT ("Copyright (C) 1999-2026 TigerVNC team and many others (see README.rst)\n" \
-                       "See https://www.OsConnect.org for information on TigerVNC.\n")
+                       "See https://www.tigervnc.org for information on TigerVNC.\n")
 
 #define VNC_DEFAULT_WIDTH  1024
 #define VNC_DEFAULT_HEIGHT 768

@@ -1,12 +1,12 @@
-# Vietnamese translations for OsConnect package
-# Bản dịch Tiếng Việt dành cho gói OsConnect
-# This file is distributed under the same license as the OsConnect package.
+# Vietnamese translations for tigervnc package
+# Bản dịch Tiếng Việt dành cho gói tigervnc
+# This file is distributed under the same license as the tigervnc package.
 # Trần Ngọc Quân <vnwildman@gmail.com>, 2014, 2015, 2016, 2017, 2018.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OsConnect 1.8.90\n"
-"Report-Msgid-Bugs-To: OsConnect-devel@googlegroups.com\n"
+"Project-Id-Version: tigervnc 1.8.90\n"
+"Report-Msgid-Bugs-To: tigervnc-devel@googlegroups.com\n"
 "POT-Creation-Date: 2018-06-13 14:22+0000\n"
 "PO-Revision-Date: 2018-07-04 14:52+0700\n"
 "Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
@@ -341,8 +341,8 @@ msgid "Connect"
 msgstr "Kết nối"
 
 #: vncviewer/ServerDialog.cxx:137 vncviewer/ServerDialog.cxx:171
-msgid "TigerVNC configuration (*.OsConnect)"
-msgstr "Cấu hình TigerVNC (*.OsConnect)"
+msgid "TigerVNC configuration (*.tigervnc)"
+msgstr "Cấu hình TigerVNC (*.tigervnc)"
 
 #: vncviewer/ServerDialog.cxx:138
 msgid "Select a TigerVNC configuration file"
@@ -626,12 +626,12 @@ msgid ""
 "TigerVNC Viewer %d-bit v%s\n"
 "Built on: %s\n"
 "Copyright (C) 1999-%d TigerVNC Team and many others (see README.rst)\n"
-"See http://www.OsConnect.org for information on TigerVNC."
+"See http://www.tigervnc.org for information on TigerVNC."
 msgstr ""
 "TigerVNC Viewer %d-bít v%s\n"
 "Biên dịch vào: %s\n"
 "Copyright (C) 1999-%d Nhóm TigerVNC và nhiều người khác (xem README.rst)\n"
-"Truy cập http://www.OsConnect.org để biết thêm thông tin về TigerVNC."
+"Truy cập http://www.tigervnc.org để biết thêm thông tin về TigerVNC."
 
 #: vncviewer/vncviewer.cxx:127
 msgid "About TigerVNC Viewer"
@@ -726,8 +726,8 @@ msgid "Connect to VNC server and display remote desktop"
 msgstr "Kết nối đến máy phục vụ VNC và hiển thị màn hình từ xa"
 
 #: vncviewer/vncviewer.desktop.in.in:7
-msgid "OsConnect"
-msgstr "OsConnect"
+msgid "tigervnc"
+msgstr "tigervnc"
 
 #~ msgid "Not enough memory for framebuffer"
 #~ msgstr "Không đủ bộ nhớ cho bộ đệm khung"

@@ -1,11 +1,11 @@
-# Brazilian Portuguese translation of OsConnect.
+# Brazilian Portuguese translation of tigervnc.
 # Copyright (C) 2019 the TigerVNC Team (msgids)
-# This file is distributed under the same license as the OsConnect package.
+# This file is distributed under the same license as the tigervnc package.
 # Rafael Fontenelle <rafaelff@gnome.org>, 2015-2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: OsConnect 1.9.90\n"
-"Report-Msgid-Bugs-To: OsConnect-devel@googlegroups.com\n"
+"Project-Id-Version: tigervnc 1.9.90\n"
+"Report-Msgid-Bugs-To: tigervnc-devel@googlegroups.com\n"
 "POT-Creation-Date: 2019-10-18 10:14+0200\n"
 "PO-Revision-Date: 2019-10-29 05:03-0200\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
@@ -329,8 +329,8 @@ msgid "Connect"
 msgstr "Conectar"
 
 #: vncviewer/ServerDialog.cxx:137 vncviewer/ServerDialog.cxx:171
-msgid "TigerVNC configuration (*.OsConnect)"
-msgstr "Configuração do TigerVNC (*.OsConnect)"
+msgid "TigerVNC configuration (*.tigervnc)"
+msgstr "Configuração do TigerVNC (*.tigervnc)"
 
 #: vncviewer/ServerDialog.cxx:138
 msgid "Select a TigerVNC configuration file"
@@ -614,12 +614,12 @@ msgid ""
 "TigerVNC Viewer %d-bit v%s\n"
 "Built on: %s\n"
 "Copyright (C) 1999-%d TigerVNC Team and many others (see README.rst)\n"
-"See https://www.OsConnect.org for information on TigerVNC."
+"See https://www.tigervnc.org for information on TigerVNC."
 msgstr ""
 "Visualizador TigerVNC %d bits v%s\n"
 "Compilado em: %s\n"
 "Copyright (C) 1999-%d Equipe TigerVNC e muitos outros (veja README.rst)\n"
-"Veja https://www.OsConnect.org para informação sobre o TigerVNC."
+"Veja https://www.tigervnc.org para informação sobre o TigerVNC."
 
 #: vncviewer/vncviewer.cxx:127
 msgid "About TigerVNC Viewer"
@@ -714,8 +714,8 @@ msgid "Connect to VNC server and display remote desktop"
 msgstr "Conecte a um servidor VNC e exiba a área de trabalho remota"
 
 #: vncviewer/vncviewer.desktop.in.in:7
-msgid "OsConnect"
-msgstr "OsConnect"
+msgid "tigervnc"
+msgstr "tigervnc"
 
 #~ msgid "Enabling continuous updates"
 #~ msgstr "Ativando atualizações contínuas"

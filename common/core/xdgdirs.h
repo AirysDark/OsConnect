@@ -35,8 +35,8 @@ namespace core {
 
   /*
    * Get VNC config directory. On Unix-like systems, this is either:
-   * - $XDG_CONFIG_HOME/OsConnect
-   * - $HOME/.config/OsConnect
+   * - $XDG_CONFIG_HOME/tigervnc
+   * - $HOME/.config/tigervnc
    * On Windows, this is simply %APPDATA%/TigerVNC/.
    *
    * Returns NULL on failure.
@@ -46,8 +46,8 @@ namespace core {
   /*
    * Get VNC data directory used for X.509 known hosts.
    * On Unix-like systems, this is either:
-   * - $XDG_DATA_HOME/OsConnect
-   * - $HOME/.local/share/OsConnect
+   * - $XDG_DATA_HOME/tigervnc
+   * - $HOME/.local/share/tigervnc
    * On Windows, this is simply %APPDATA%/TigerVNC/.
    *
    * Returns NULL on failure.
@@ -56,8 +56,8 @@ namespace core {
 
   /*
    * Get VNC state (logs) directory. On Unix-like systems, this is either:
-   * - $XDG_STATE_HOME/OsConnect
-   * - $HOME/.local/state/OsConnect
+   * - $XDG_STATE_HOME/tigervnc
+   * - $HOME/.local/state/tigervnc
    * On Windows, this is simply %APPDATA%/TigerVNC/.
    *
    * Returns NULL on failure.

@@ -250,8 +250,8 @@ The values of the JAVA_STOREPASS and JAVA_KEYPASS arguments may optionally be
 read from file or environment variables by prefixing the value with ":env " 
 or ":file " (see the jarsigner documentation for more info): 
 
-  export StorePass=OsConnect
-  export KeyPass=OsConnect
+  export StorePass=tigervnc
+  export KeyPass=tigervnc
   cmake \
     ...
     -DJAVA_STOREPASS=":env StorePass"

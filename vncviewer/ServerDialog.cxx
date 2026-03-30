@@ -58,7 +58,7 @@
 
 static core::LogWriter vlog("ServerDialog");
 
-const char* SERVER_HISTORY="OsConnect.history";
+const char* SERVER_HISTORY="tigervnc.history";
 
 ServerDialog::ServerDialog()
   : Fl_Window(450, 0, "TigerVNC")
@@ -170,7 +170,7 @@ void ServerDialog::handleLoad(Fl_Widget* /*widget*/, void* data)
     dialog->usedDir = core::getuserhomedir();
 
   Fl_File_Chooser* file_chooser = new Fl_File_Chooser(dialog->usedDir.c_str(),
-                                                      _("TigerVNC configuration (*.OsConnect)"),
+                                                      _("TigerVNC configuration (*.tigervnc)"),
                                                       0, _("Select a TigerVNC configuration file"));
   file_chooser->preview(0);
   file_chooser->previewButton->hide();
@@ -210,7 +210,7 @@ void ServerDialog::handleSaveAs(Fl_Widget* /*widget*/, void* data)
     dialog->usedDir = core::getuserhomedir();
   
   Fl_File_Chooser* file_chooser = new Fl_File_Chooser(dialog->usedDir.c_str(),
-                                                      _("TigerVNC configuration (*.OsConnect)"),
+                                                      _("TigerVNC configuration (*.tigervnc)"),
                                                       2, _("Save the TigerVNC configuration to file"));
   
   file_chooser->preview(0);

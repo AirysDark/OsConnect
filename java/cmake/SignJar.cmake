@@ -27,18 +27,18 @@ if(JAVA_KEYSTORE)
   endif()
 else()
   message(STATUS "Generating self-signed certificate")
-  file(REMOVE OsConnect.keystore)
+  file(REMOVE tigervnc.keystore)
   execute_process(COMMAND
-    ${KEYTOOL} -genkey -alias TigerVNC -keystore OsConnect.keystore -keyalg RSA
-      -storepass OsConnect -keypass OsConnect -validity 7300
+    ${KEYTOOL} -genkey -alias TigerVNC -keystore tigervnc.keystore -keyalg RSA
+      -storepass tigervnc -keypass tigervnc -validity 7300
       -dname "CN=TigerVNC, OU=Software development, O=The TigerVNC project, L=Austin, S=Texas, C=US"
     RESULT_VARIABLE RESULT OUTPUT_VARIABLE OUTPUT ERROR_VARIABLE ERROR)
   if(NOT RESULT EQUAL 0)
     message(FATAL_ERROR "${KEYTOOL} failed:\n${ERROR}")
   endif()
-  set(JAVA_KEYSTORE "OsConnect.keystore")
-  set(JAVA_STOREPASS "OsConnect")
-  set(JAVA_KEYPASS "OsConnect")
+  set(JAVA_KEYSTORE "tigervnc.keystore")
+  set(JAVA_STOREPASS "tigervnc")
+  set(JAVA_KEYPASS "tigervnc")
   set(JAVA_KEY_ALIAS "TigerVNC")
 endif()
 
@@ -87,6 +87,6 @@ if(NOT RESULT EQUAL 0)
   message(FATAL_ERROR "${JARSIGNER} failed:\n${ERROR}")
 endif()
 
-if(EXISTS OsConnect.keystore)
-  file(REMOVE OsConnect.keystore)
+if(EXISTS tigervnc.keystore)
+  file(REMOVE tigervnc.keystore)
 endif()

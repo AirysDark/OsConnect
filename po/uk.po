@@ -1,12 +1,12 @@
-# Ukrainian translation of OsConnect
+# Ukrainian translation of tigervnc
 # Copyright (C) 2014 the TigerVNC Team (msgids)
-# This file is distributed under the same license as the OsConnect package.
+# This file is distributed under the same license as the tigervnc package.
 #
 # Yuri Chornoivan <yurchor@ukr.net>, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2024, 2025.
 msgid ""
 msgstr ""
-"Project-Id-Version: OsConnect 1.15.90\n"
-"Report-Msgid-Bugs-To: OsConnect-devel@googlegroups.com\n"
+"Project-Id-Version: tigervnc 1.15.90\n"
+"Report-Msgid-Bugs-To: tigervnc-devel@googlegroups.com\n"
 "POT-Creation-Date: 2025-11-07 10:53+0100\n"
 "PO-Revision-Date: 2025-11-13 14:45+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
@@ -552,8 +552,8 @@ msgstr ""
 "%s"
 
 #: vncviewer/ServerDialog.cxx:175 vncviewer/ServerDialog.cxx:215
-msgid "TigerVNC configuration (*.OsConnect)"
-msgstr "налаштування TigerVNC (*.OsConnect)"
+msgid "TigerVNC configuration (*.tigervnc)"
+msgstr "налаштування TigerVNC (*.tigervnc)"
 
 #: vncviewer/ServerDialog.cxx:176
 msgid "Select a TigerVNC configuration file"
@@ -786,39 +786,39 @@ msgstr "У вікна 0x%08lx є декілька масок подій X Input 
 msgid "Failure grabbing device %i"
 msgstr "Помилка під час спроби захопити пристрій %i"
 
-#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:13
+#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:13
 #: vncviewer/vncviewer.desktop.in.in:2
 msgid "TigerVNC"
 msgstr "TigerVNC"
 
-#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:14
+#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:14
 #: vncviewer/vncviewer.desktop.in.in:4
 msgid "Connect to VNC server and display remote desktop"
 msgstr "З'єднання із сервером VNC і показ віддаленої стільниці"
 
-#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:17
+#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:17
 msgid "Virtual Network Computing (VNC) is a remote display system that allows you to view and interact with a virtual desktop environment running on another computer on the network. Using VNC, you can run graphical applications on a remote machine and send only the display from these applications to your local device. This package contains a client which will enable you to connect to other desktops running a VNC server. VNC is platform-independent and supports various operating systems and architectures as both servers and clients."
 msgstr "Віртуальна мережева взаємодія комп'ютерів (Virtual Network Computing або VNC) є системою віддаленої стільниці, за допомогою якої ви можете переглядати та взаємодіяти із віртуальним стільничним середовищем, яке запущено на іншому комп'ютері у мережі. За допомогою VNC ви можете запускати програми із графічним інтерфейсом на віддаленому комп'ютері і отримувати лише зображення з цих програм на вашому локальному пристрої. У цьому пакунку міститься клієнтська частина, за допомогою якої ви можете з'єднуватися з іншими стільничними середовищами, де запущено сервер VNC. Протокол VNC є незалежним від платформи, у ньому передбачено підтримку різних операційних систем та апаратних архітектур, як на сервері, так і на клієнті."
 
-#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:23
+#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:23
 msgid "TigerVNC is a high-speed version of VNC based on the RealVNC 4 and X.org code bases. TigerVNC started as a next-generation development effort for TightVNC on Unix and Linux platforms, but it split from its parent project in early 2009 so that TightVNC could focus on Windows platforms. TigerVNC supports a variant of Tight encoding that is greatly accelerated by the use of the libjpeg-turbo JPEG codec."
 msgstr "TigerVNC — високошвидкісна версія VNC на основі програмного коду RealVNC 4 та X.org. Роботу над TigerVNC було розпочато у межах побудови наступного покоління для TightVNC на платформах Unix та Linux, але програма відокремилася від батьківського проєкту на початку 2009 року, коли проєкт TightVNC зосередився на платформах Windows. У TigerVNC передбачено підтримку варіанта кодування Tight, який значно пришвидшено використанням кодека JPEG libjpeg-turbo."
 
-#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:33
+#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:33
 msgid "TigerVNC connection to a CentOS machine"
 msgstr "З'єднання TigerVNC зі комп'ютером, де працює CentOS"
 
-#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:37
+#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:37
 msgid "TigerVNC connection to a macOS machine"
 msgstr "З'єднання TigerVNC із комп'ютером, де працює macOS"
 
-#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:41
+#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:41
 msgid "TigerVNC connection to a Windows machine"
 msgstr "З'єднання TigerVNC із комп'ютером, де працює Windows"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:46
-#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:48
+#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:46
+#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:48
 msgid "The TigerVNC team"
 msgstr "Команда TigerVNC"
 
@@ -940,12 +940,12 @@ msgid ""
 "TigerVNC v%s\n"
 "Built on: %s\n"
 "Copyright (C) 1999-%d TigerVNC team and many others (see README.rst)\n"
-"See https://www.OsConnect.org for information on TigerVNC."
+"See https://www.tigervnc.org for information on TigerVNC."
 msgstr ""
 "TigerVNC, v%s\n"
 "Зібрано: %s\n"
 "Авторські права належать команді TigerVNC та багатьом іншим (див. файл README.rst), 1999–%d\n"
-"Докладніший опис TigerVNC можна знайти на https://www.OsConnect.org."
+"Докладніший опис TigerVNC можна знайти на https://www.tigervnc.org."
 
 #: vncviewer/vncviewer.cxx:173
 msgid "About TigerVNC"
@@ -1026,14 +1026,14 @@ msgid ""
 "       %s [parameters] [host][::port]\n"
 "       %s [parameters] [unix socket]\n"
 "       %s [parameters] -listen [port]\n"
-"       %s [parameters] [.OsConnect file]\n"
+"       %s [parameters] [.tigervnc file]\n"
 msgstr ""
 "\n"
 "Користування: %s [параметри] [вузол][:номерДисплея]\n"
 "       %s [параметри] [вузол][::порт]\n"
 "       %s [параметри] [сокет unix]\n"
 "       %s [параметри] -listen [порт]\n"
-"       %s [параметри] [файл .OsConnect]\n"
+"       %s [параметри] [файл .tigervnc]\n"
 
 #: vncviewer/vncviewer.cxx:465
 #, c-format
@@ -1295,8 +1295,8 @@ msgstr "Засіб перегляду віддаленої стільниці"
 #~ msgid "Could not create VNC home directory: can't obtain home directory path."
 #~ msgstr "Не вдалося створити домашній каталог VNC: не вдалося отримати шлях до домашнього каталогу."
 
-#~ msgid "OsConnect"
-#~ msgstr "OsConnect"
+#~ msgid "tigervnc"
+#~ msgstr "tigervnc"
 
 #~ msgid "Enabling continuous updates"
 #~ msgstr "Увімкнути неперервне оновлення"

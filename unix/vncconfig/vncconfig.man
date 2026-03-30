@@ -115,7 +115,7 @@ When run as a "helper" app, don't put up a window.
 .BR Xvnc (1),
 .BR vncsession (8)
 .br
-https://www.OsConnect.org
+https://www.tigervnc.org
 
 .SH AUTHOR
 Tristan Richardson, RealVNC Ltd. and others.

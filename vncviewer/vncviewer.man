@@ -21,7 +21,7 @@ vncviewer \- VNC viewer for X
 .br
 .B vncviewer
 .RI [ options ]
-.RI [ .OsConnect\ file ]
+.RI [ .tigervnc\ file ]
 .SH DESCRIPTION
 .B vncviewer
 is a viewer (client) for Virtual Network Computing.  This manual page documents
@@ -39,14 +39,14 @@ VNC server on that machine.  Either the machine name or display number can be
 omitted.  So for example ":1" means display number 1 on the same machine, and
 "snoopy" means "snoopy:0" i.e. display 0 on machine "snoopy".
 
-As another quick way to start a connection to a VNC server, specify a .OsConnect
+As another quick way to start a connection to a VNC server, specify a .tigervnc
 configuration file as an argument to the viewer, e.g.:
 
 .RS
-vncviewer ./some.OsConnect
+vncviewer ./some.tigervnc
 .RE
 
-where './some.OsConnect' is an existing and valid TigerVNC configuration file.
+where './some.tigervnc' is an existing and valid TigerVNC configuration file.
 The file name needs to include a path separator.  Additional options may be
 given too, but the given configuration file will overwrite any conflicting
 parameters.
@@ -270,7 +270,7 @@ Disable lossy JPEG compression. Default is off.
 .B \-passwd, \-PasswordFile \fIpassword-file\fP
 If you are on a filesystem which gives you access to the password file used by
 the server, you can specify it here to avoid typing it in.  It will usually be
-\fI$XDG_CONFIG_HOME/OsConnect/passwd\fP, or \fI~/.config/OsConnect/passwd\fP
+\fI$XDG_CONFIG_HOME/tigervnc/passwd\fP, or \fI~/.config/tigervnc/passwd\fP
 if the former is unset.
 .
 .TP
@@ -371,44 +371,44 @@ combined with
 .B \-X509CA \fIpath\fP
 Path to CA certificate to use when authenticating remote servers using any
 of the X509 security schemes (X509None, X509Vnc, etc.). Must be in PEM
-format. Default is \fI$XDG_CONFIG_HOME/OsConnect/x509_ca.pem\fP, or
-\fI~/.config/OsConnect/x509_ca.pem\fP.
+format. Default is \fI$XDG_CONFIG_HOME/tigervnc/x509_ca.pem\fP, or
+\fI~/.config/tigervnc/x509_ca.pem\fP.
 .
 .TP
 .B \-X509CRL \fIpath\fP
 Path to certificate revocation list to use in conjunction with
 \fB-X509CA\fP. Must also be in PEM format. Default is
-\fI$XDG_CONFIG_HOME/OsConnect/x509_crl.pem\fP, or
-\fI~/.config/OsConnect/x509_crl.pem\fP.
+\fI$XDG_CONFIG_HOME/tigervnc/x509_crl.pem\fP, or
+\fI~/.config/tigervnc/x509_crl.pem\fP.
 
 .SH FILES
 .TP
-\fI$XDG_CONFIG_HOME/OsConnect/default.OsConnect\fP
+\fI$XDG_CONFIG_HOME/tigervnc/default.tigervnc\fP
 .TQ
-\fI$HOME/.config/OsConnect/default.OsConnect\fP
+\fI$HOME/.config/tigervnc/default.tigervnc\fP
 Default configuration options. This file must have a "magic" first line of
 "TigerVNC Configuration file Version 1.0" (without quotes), followed by simple
 <setting>=<value> pairs of your choosing. The available settings are those
 shown in this man page.
 .TP
-\fI$XDG_CONFIG_HOME/OsConnect/x509_ca.pem\fP
+\fI$XDG_CONFIG_HOME/tigervnc/x509_ca.pem\fP
 .TQ
-\fI$HOME/.config/OsConnect/x509_ca.pem\fP
+\fI$HOME/.config/tigervnc/x509_ca.pem\fP
 Default CA certificate for authenticating servers.
 .TP
-\fI$XDG_CONFIG_HOME/OsConnect/x509_crl.pem\fP
+\fI$XDG_CONFIG_HOME/tigervnc/x509_crl.pem\fP
 .TQ
-\fI$HOME/.config/OsConnect/x509_crl.pem\fP
+\fI$HOME/.config/tigervnc/x509_crl.pem\fP
 Default certificate revocation list.
 .TP
-\fI$XDG_DATA_HOME/OsConnect/x509_known_hosts\fP
+\fI$XDG_DATA_HOME/tigervnc/x509_known_hosts\fP
 .TQ
-\fI$HOME/.local/share/OsConnect/x509_known_hosts\fP
+\fI$HOME/.local/share/tigervnc/x509_known_hosts\fP
 Known hosts database for certificate-based authentication.
 .TP
-\fI$XDG_STATE_HOME/OsConnect/OsConnect.history\fP
+\fI$XDG_STATE_HOME/tigervnc/tigervnc.history\fP
 .TQ
-\fI$HOME/.local/state/OsConnect/OsConnect.history\fP
+\fI$HOME/.local/state/tigervnc/tigervnc.history\fP
 History file for hostnames that have been recently connected to.
 
 .SH SEE ALSO
@@ -417,7 +417,7 @@ History file for hostnames that have been recently connected to.
 .BR vncconfig (1),
 .BR vncsession (8)
 .br
-https://www.OsConnect.org
+https://www.tigervnc.org
 
 .SH AUTHOR
 Tristan Richardson, RealVNC Ltd. and others.

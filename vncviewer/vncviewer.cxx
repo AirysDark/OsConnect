@@ -103,7 +103,7 @@ static const char *about_text()
            _("TigerVNC v%s\n"
              "Built on: %s\n"
              "Copyright (C) 1999-%d TigerVNC team and many others (see README.rst)\n"
-             "See https://www.OsConnect.org for information on TigerVNC."),
+             "See https://www.tigervnc.org for information on TigerVNC."),
            PACKAGE_VERSION, BUILD_TIMESTAMP, 2026);
 
   return buffer;
@@ -351,7 +351,7 @@ static void init_fltk()
       char icon_path[PATH_MAX];
       bool exists;
 
-      sprintf(icon_path, "%s/icons/hicolor/%dx%d/apps/OsConnect.png",
+      sprintf(icon_path, "%s/icons/hicolor/%dx%d/apps/tigervnc.png",
               CMAKE_INSTALL_FULL_DATADIR, icon_size, icon_size);
 
       struct stat st;
@@ -448,7 +448,7 @@ static void usage(const char *programName)
           "       %s [parameters] [unix socket]\n"
 #endif
           "       %s [parameters] -listen [port]\n"
-          "       %s [parameters] [.OsConnect file]\n"),
+          "       %s [parameters] [.tigervnc file]\n"),
           programName, programName,
 #ifndef WIN32
           programName,

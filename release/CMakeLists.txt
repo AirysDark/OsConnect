@@ -13,11 +13,11 @@ if(CMAKE_SIZEOF_VOID_P MATCHES 8)
   set(INST_DEFS -DWIN64)
 endif()
 
-configure_file(OsConnect.iss.in OsConnect.iss)
+configure_file(tigervnc.iss.in tigervnc.iss)
 
 add_custom_command(OUTPUT ${CMAKE_PROJECT_NAME}${INST_SUFFIX}-${VERSION}.exe
-  COMMAND iscc -o. ${INST_DEFS} -F${CMAKE_PROJECT_NAME}${INST_SUFFIX}-${VERSION} OsConnect.iss
-  DEPENDS vncviewer OsConnect.iss)
+  COMMAND iscc -o. ${INST_DEFS} -F${CMAKE_PROJECT_NAME}${INST_SUFFIX}-${VERSION} tigervnc.iss
+  DEPENDS vncviewer tigervnc.iss)
 add_custom_target(installer DEPENDS ${CMAKE_PROJECT_NAME}${INST_SUFFIX}-${VERSION}.exe)
 
 if(BUILD_WINVNC)

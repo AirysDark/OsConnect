@@ -1,13 +1,13 @@
 # Slovak translation of TigerVNC
 # Copyright (C) 2025 the TigerVNC Team (msgids)
-# This file is distributed under the same license as the OsConnect package.
+# This file is distributed under the same license as the tigervnc package.
 # Jozef Riha <jose1711@gmail.com>, 2008.
 # Marián Haburaj <hajkomajko5@gmail.com>, 2024, 2025.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OsConnect 1.15.90\n"
-"Report-Msgid-Bugs-To: OsConnect-devel@googlegroups.com\n"
+"Project-Id-Version: tigervnc 1.15.90\n"
+"Report-Msgid-Bugs-To: tigervnc-devel@googlegroups.com\n"
 "POT-Creation-Date: 2025-11-07 10:53+0100\n"
 "PO-Revision-Date: 2025-11-13 16:25+0100\n"
 "Last-Translator: Marián Haburaj <hajkomajko5@gmail.com>\n"
@@ -552,8 +552,8 @@ msgstr ""
 "%s"
 
 #: vncviewer/ServerDialog.cxx:175 vncviewer/ServerDialog.cxx:215
-msgid "TigerVNC configuration (*.OsConnect)"
-msgstr "Nastavenie TigerVNC (*.OsConnect)"
+msgid "TigerVNC configuration (*.tigervnc)"
+msgstr "Nastavenie TigerVNC (*.tigervnc)"
 
 #: vncviewer/ServerDialog.cxx:176
 msgid "Select a TigerVNC configuration file"
@@ -786,39 +786,39 @@ msgstr "Okno 0x%08lx má viac než jednu masku udalosti X Input 2"
 msgid "Failure grabbing device %i"
 msgstr "Chyba pri preberaní zariadenia %i"
 
-#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:13
+#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:13
 #: vncviewer/vncviewer.desktop.in.in:2
 msgid "TigerVNC"
 msgstr "TigerVNC"
 
-#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:14
+#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:14
 #: vncviewer/vncviewer.desktop.in.in:4
 msgid "Connect to VNC server and display remote desktop"
 msgstr "Pripojiť sa na VNC server a zobraziť vzdialenú plochu"
 
-#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:17
+#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:17
 msgid "Virtual Network Computing (VNC) is a remote display system that allows you to view and interact with a virtual desktop environment running on another computer on the network. Using VNC, you can run graphical applications on a remote machine and send only the display from these applications to your local device. This package contains a client which will enable you to connect to other desktops running a VNC server. VNC is platform-independent and supports various operating systems and architectures as both servers and clients."
 msgstr "Virtual Network Computing (VNC) je technológia vzdialenej plochy, ktorá vám umožní zobraziť a interagovať s prostredím vzdialenej plochy, ktorá je spustená na inom počítači v sieti. Pomocou VNC môžete mať spustené grafické aplikácie na vzdialenom stroji a posielať len obraz z týchto aplikácií do vášho lokálneho zariadenia. Tento balík obsahuje klienta, ktorý vám umožní pripojiť sa k iným plochám, na ktorých je spustený VNC server. VNC je nezávislé na platforme a podporuje rôzne operačné systémy a architektúry tak ako na serveri, tak aj u klienta."
 
-#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:23
+#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:23
 msgid "TigerVNC is a high-speed version of VNC based on the RealVNC 4 and X.org code bases. TigerVNC started as a next-generation development effort for TightVNC on Unix and Linux platforms, but it split from its parent project in early 2009 so that TightVNC could focus on Windows platforms. TigerVNC supports a variant of Tight encoding that is greatly accelerated by the use of the libjpeg-turbo JPEG codec."
 msgstr "TigerVNC je vysokorýchlostná verzia VNC založená na kóde RealVNC 4 a X.org. TigerVNC sa začala ako snaha o vývoj novej generácie TightVNC pre Unix a Linux, ale oddelilo sa od rodičovského projektu na začiatku roka 2009, a tak sa TigerVNC mohlo sústrediť na platformu Windows. TigerVNC podporuje variant Tight kódovania, ktorý je značne zrýchlený použitím JPEG kodeku libjpeg-turbo."
 
-#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:33
+#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:33
 msgid "TigerVNC connection to a CentOS machine"
 msgstr "Pripojenie TigerVNC k stroju s CentOS"
 
-#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:37
+#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:37
 msgid "TigerVNC connection to a macOS machine"
 msgstr "Pripojenie TigerVNC k stroju s macOS"
 
-#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:41
+#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:41
 msgid "TigerVNC connection to a Windows machine"
 msgstr "Pripojenie TigerVNC k stroju s Windows"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:46
-#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:48
+#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:46
+#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:48
 msgid "The TigerVNC team"
 msgstr "TigerVNC tím"
 
@@ -940,12 +940,12 @@ msgid ""
 "TigerVNC v%s\n"
 "Built on: %s\n"
 "Copyright (C) 1999-%d TigerVNC team and many others (see README.rst)\n"
-"See https://www.OsConnect.org for information on TigerVNC."
+"See https://www.tigervnc.org for information on TigerVNC."
 msgstr ""
 "TigerVNC v%s\n"
 "Postavený na: %s\n"
 "Copyright (C) 1999-%d Tím TigerVNC a mnohí ďalší (pozri README.rst)\n"
-"Pre informácie o TigerVNC navštívte https://www.OsConnect.org."
+"Pre informácie o TigerVNC navštívte https://www.tigervnc.org."
 
 #: vncviewer/vncviewer.cxx:173
 msgid "About TigerVNC"
@@ -1026,14 +1026,14 @@ msgid ""
 "       %s [parameters] [host][::port]\n"
 "       %s [parameters] [unix socket]\n"
 "       %s [parameters] -listen [port]\n"
-"       %s [parameters] [.OsConnect file]\n"
+"       %s [parameters] [.tigervnc file]\n"
 msgstr ""
 "\n"
 "Použitie: %s [parametre] [hostiteľ][:čísloDispleja]\n"
 "       %s[parametre] [hostiteľ][::port]\n"
 "       %s[parametre] [unix socket]\n"
 "       %s[parametre] -listen [port]\n"
-"       %s[parametre] [.OsConnect súbor]\n"
+"       %s[parametre] [.tigervnc súbor]\n"
 
 #: vncviewer/vncviewer.cxx:465
 #, c-format

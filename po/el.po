@@ -1,13 +1,13 @@
 # TigerVNC Greek (el) translation.
 # Copyright (C) 2014 the TigerVNC Team (msgids)
-# This file is distributed under the same license as the OsConnect package.
+# This file is distributed under the same license as the tigervnc package.
 # First translator: Vangelis Skarmoutsos <skarmoutsosv@gmail.com>, 2015.
 # Vangelis Skarmoutsos <skarmoutsosv@gmail.com>, 2015, 2021.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OsConnect 1.9.90\n"
-"Report-Msgid-Bugs-To: OsConnect-devel@googlegroups.com\n"
+"Project-Id-Version: tigervnc 1.9.90\n"
+"Report-Msgid-Bugs-To: tigervnc-devel@googlegroups.com\n"
 "POT-Creation-Date: 2019-10-18 10:14+0200\n"
 "PO-Revision-Date: 2021-04-23 18:00+0300\n"
 "Last-Translator: Vangelis Skarmoutsos <skarmoutsosv@gmail.com>\n"
@@ -340,8 +340,8 @@ msgid "Connect"
 msgstr "Σύνδεση"
 
 #: vncviewer/ServerDialog.cxx:137 vncviewer/ServerDialog.cxx:171
-msgid "TigerVNC configuration (*.OsConnect)"
-msgstr "Ρυθμίσεις TigerVNC (*.OsConnect)"
+msgid "TigerVNC configuration (*.tigervnc)"
+msgstr "Ρυθμίσεις TigerVNC (*.tigervnc)"
 
 #: vncviewer/ServerDialog.cxx:138
 msgid "Select a TigerVNC configuration file"
@@ -652,17 +652,17 @@ msgstr "Άκυρο όνομα παραμέτρου στην γραμμή %d στ
 #| "TigerVNC Viewer %d-bit v%s\n"
 #| "Built on: %s\n"
 #| "Copyright (C) 1999-%d TigerVNC Team and many others (see README.txt)\n"
-#| "See http://www.OsConnect.org for information on TigerVNC."
+#| "See http://www.tigervnc.org for information on TigerVNC."
 msgid ""
 "TigerVNC Viewer %d-bit v%s\n"
 "Built on: %s\n"
 "Copyright (C) 1999-%d TigerVNC Team and many others (see README.rst)\n"
-"See https://www.OsConnect.org for information on TigerVNC."
+"See https://www.tigervnc.org for information on TigerVNC."
 msgstr ""
 "Θεατής TigerVNC %d-bit v%s\n"
 "Built on: %s\n"
 "Πνευματικά δικαιώματα (C) 1999-%d Ομάδα TigerVNC και πολλοί άλλοι (δείτε το README.txt)\n"
-"Δείτε στο http://www.OsConnect.org για πληροφορίες σχετικά με το TigerVNC."
+"Δείτε στο http://www.tigervnc.org για πληροφορίες σχετικά με το TigerVNC."
 
 #: vncviewer/vncviewer.cxx:127
 msgid "About TigerVNC Viewer"
@@ -761,8 +761,8 @@ msgid "Connect to VNC server and display remote desktop"
 msgstr "Σύνδεση σε ένα εξυπηρετητή VNC και εμφάνιση του απομακρυσμένου επιφάνειας εργασίας"
 
 #: vncviewer/vncviewer.desktop.in.in:7
-msgid "OsConnect"
-msgstr "OsConnect"
+msgid "tigervnc"
+msgstr "tigervnc"
 
 #~ msgid "Alt"
 #~ msgstr "Alt"
