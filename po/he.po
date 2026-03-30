@@ -1,12 +1,12 @@
 # Hebrew translation of TigerVNC.
 # Copyright (C) 2019 the TigerVNC Team (msgids)
-# This file is distributed under the same license as the tigervnc package.
+# This file is distributed under the same license as the OsConnect package.
 # Yaron Shahrabani <sh.yaron@gmail.com>, 2025
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: tigervnc-1.15.90\n"
-"Report-Msgid-Bugs-To: tigervnc-devel@googlegroups.com\n"
+"Project-Id-Version: OsConnect-1.15.90\n"
+"Report-Msgid-Bugs-To: OsConnect-devel@googlegroups.com\n"
 "POT-Creation-Date: 2025-11-07 10:53+0100\n"
 "PO-Revision-Date: 2025-11-13 18:22+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
@@ -556,8 +556,8 @@ msgstr ""
 "‏‫%s"
 
 #: vncviewer/ServerDialog.cxx:175 vncviewer/ServerDialog.cxx:215
-msgid "TigerVNC configuration (*.tigervnc)"
-msgstr "הגדרות TigerVNC‏ (‎*.tigervnc)"
+msgid "TigerVNC configuration (*.OsConnect)"
+msgstr "הגדרות TigerVNC‏ (‎*.OsConnect)"
 
 #: vncviewer/ServerDialog.cxx:176
 msgid "Select a TigerVNC configuration file"
@@ -800,39 +800,39 @@ msgstr "לחלון 0x%08lx יש יותר ממסכת אירועים אחת של X
 msgid "Failure grabbing device %i"
 msgstr "לכידת ההתקן %i נכשלה"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:13
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:13
 #: vncviewer/vncviewer.desktop.in.in:2
 msgid "TigerVNC"
 msgstr "TigerVNC"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:14
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:14
 #: vncviewer/vncviewer.desktop.in.in:4
 msgid "Connect to VNC server and display remote desktop"
 msgstr "התחברות לשרת VNC והצגת שולחן עבודה מרוחק"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:17
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:17
 msgid "Virtual Network Computing (VNC) is a remote display system that allows you to view and interact with a virtual desktop environment running on another computer on the network. Using VNC, you can run graphical applications on a remote machine and send only the display from these applications to your local device. This package contains a client which will enable you to connect to other desktops running a VNC server. VNC is platform-independent and supports various operating systems and architectures as both servers and clients."
 msgstr "מחשוב רשת וירטואלי (VNC) היא מערכת תצוגה מרחוק שמאפשרת לצפות ולתפעל סביבת שולחן עבודה וירטואלית שרצה על גבי מחשב אחר ברשת. באמצעות VNC אפשר להריץ יישומים גרפיים על מכונה מרוחקת ולשלוח רק את התצוגה מהיישומים האלה למכשיר המקומי שלך. החבילה הזאת מכילה לקוח שיאפשר לך להתחבר לשולחנות עבודה אחרים שמריצים שרת VNC. ל־VNC אין תלות במערכת הפעלה כזאת או אחרת והיא תומכת במגוון מערכות הפעלה וסוגי מעבדים הן מצד השרת והן מצד הלקוח."
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:23
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:23
 msgid "TigerVNC is a high-speed version of VNC based on the RealVNC 4 and X.org code bases. TigerVNC started as a next-generation development effort for TightVNC on Unix and Linux platforms, but it split from its parent project in early 2009 so that TightVNC could focus on Windows platforms. TigerVNC supports a variant of Tight encoding that is greatly accelerated by the use of the libjpeg-turbo JPEG codec."
 msgstr "שTigerVNC היא גרסה מהירה של VNC שמבוססת ביסודה על קוד המקור של RealVNC ושל X.Org. מיזם TigerVNC החל כמאמץ פיתוח לדור הבא של TightVNC לפלטפורמות יוניקס ולינוקס אך הוא פוצל ממיזם ההורה שלו בתחילת 2009 כדי לאפשר ל־TightVNC להתמקד בתמיכה ב־Windows. ב־TigerVNC יש תמיכה במגוון של הצפנות Tight שמואצות על ידי השימוש במפענח JPEG בשם libjpeg-turbo."
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:33
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:33
 msgid "TigerVNC connection to a CentOS machine"
 msgstr "חיבור TigerVNC למכונת CentOS"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:37
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:37
 msgid "TigerVNC connection to a macOS machine"
 msgstr "חיבור TigerVNC למכונת macOS"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:41
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:41
 msgid "TigerVNC connection to a Windows machine"
 msgstr "חיבור TigerVNC למכונת Windows"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:46
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:48
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:46
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:48
 msgid "The TigerVNC team"
 msgstr "צוות TigerVNC"
 
@@ -954,12 +954,12 @@ msgid ""
 "TigerVNC v%s\n"
 "Built on: %s\n"
 "Copyright (C) 1999-%d TigerVNC team and many others (see README.rst)\n"
-"See https://www.tigervnc.org for information on TigerVNC."
+"See https://www.OsConnect.org for information on TigerVNC."
 msgstr ""
 "‏TigerVNC‏ גרסה %s\n"
 "‫נבנה על גבי: %s\n"
 "‫כל הזכויות שמורות (C) 1999‏-%d לצוות TigerVNC ועוד רבים וטובים (ניתן לעיין ב־README.rst)\n"
-"‬‫למידע על TigerVNC מומלץ לפנות אל https://www.tigervnc.org."
+"‬‫למידע על TigerVNC מומלץ לפנות אל https://www.OsConnect.org."
 
 #: vncviewer/vncviewer.cxx:173
 msgid "About TigerVNC"
@@ -1042,14 +1042,14 @@ msgid ""
 "       %s [parameters] [host][::port]\n"
 "       %s [parameters] [unix socket]\n"
 "       %s [parameters] -listen [port]\n"
-"       %s [parameters] [.tigervnc file]\n"
+"       %s [parameters] [.OsConnect file]\n"
 msgstr ""
 "\n"
 "שימוש: ‎%s [parameters] [host][:displayNum]\n"
 "       %s [parameters] [host][::port]\n"
 "       %s [parameters] [שקע יוניקס]\n"
 "       %s [parameters] -listen [port]\n"
-"       %s [parameters] [קובץ ‎.tigervnc]\n"
+"       %s [parameters] [קובץ ‎.OsConnect]\n"
 
 #: vncviewer/vncviewer.cxx:465
 #, c-format
@@ -1313,5 +1313,5 @@ msgstr "מציג שולחנות עבודה מרוחקים"
 #~ msgid "Could not create VNC home directory: can't obtain home directory path."
 #~ msgstr "לא ניתן ליצור תיקיית בית VNC: לא ניתן לקבל את נתיב תיקיית הבית."
 
-#~ msgid "tigervnc"
-#~ msgstr "tigervnc"
+#~ msgid "OsConnect"
+#~ msgstr "OsConnect"

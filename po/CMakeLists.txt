@@ -21,19 +21,19 @@ if (GETTEXT_XGETTEXT_EXECUTABLE)
   add_custom_target(translations_update
     ${GETTEXT_XGETTEXT_EXECUTABLE}
       "--directory=${PROJECT_SOURCE_DIR}"
-      "--output=${CMAKE_CURRENT_SOURCE_DIR}/tigervnc.pot"
-      --default-domain=tigervnc
+      "--output=${CMAKE_CURRENT_SOURCE_DIR}/OsConnect.pot"
+      --default-domain=OsConnect
       --from-code=UTF-8
       --keyword=_
       --keyword=p_:1c,2
       --keyword=N_
       "--copyright-holder=TigerVNC team and many others \(see README.rst\)"
-      --msgid-bugs-address=tigervnc-devel@googlegroups.com
+      --msgid-bugs-address=OsConnect-devel@googlegroups.com
       --sort-by-file
       --add-location
       --add-comments=TRANSLATORS
       ${po_source}
-    COMMENT "Updating tigervnc.pot"
+    COMMENT "Updating OsConnect.pot"
     VERBATIM
   )
 endif (GETTEXT_XGETTEXT_EXECUTABLE)
@@ -50,7 +50,7 @@ foreach(lang ${po_FILES})
 
   install(FILES ${mo}
     DESTINATION "${CMAKE_INSTALL_FULL_LOCALEDIR}/${lang}/LC_MESSAGES"
-    RENAME tigervnc.mo
+    RENAME OsConnect.mo
   )
 
   set(moFiles ${moFiles} ${mo})

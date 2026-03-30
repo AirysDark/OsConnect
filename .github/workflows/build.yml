@@ -42,7 +42,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: Linux (Ubuntu)
-          path: build/tigervnc-*.tar.gz
+          path: build/OsConnect-*.tar.gz
       - name: Test
         working-directory: build
         run: ctest --test-dir tests/unit/ --output-junit test-results.xml
@@ -97,7 +97,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: Windows
-          path: build/release/tigervnc*.exe
+          path: build/release/OsConnect*.exe
       - name: Test
         working-directory: build
         run: ctest --test-dir tests/unit/ --output-junit test-results.xml
@@ -195,7 +195,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build image
-        run: docker build -t tigervnc/$DOCKER .github/containers/$DOCKER
+        run: docker build -t OsConnect/$DOCKER .github/containers/$DOCKER
       - name: Build packages
         run: .github/containers/$DOCKER/build.sh
       - uses: actions/upload-artifact@v4

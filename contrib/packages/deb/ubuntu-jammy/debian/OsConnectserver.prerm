@@ -1,0 +1,22 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "remove" ] ; then
+    BIN=/usr/bin
+    SBIN=/usr/sbin
+    update-alternatives --remove \
+       vncsession $SBIN/OsConnectsession
+    update-alternatives --remove \
+       Xvnc $BIN/XOsConnect
+    update-alternatives --remove \
+       x0vncserver $BIN/x0OsConnectserver
+    update-alternatives --remove \
+       vncpasswd $BIN/OsConnectpasswd
+    update-alternatives --remove \
+       OsConnectconfig $BIN/OsConnectconfig
+fi
+
+#DEBHELPER#
+
+exit 0

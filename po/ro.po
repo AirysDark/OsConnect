@@ -1,13 +1,13 @@
-# Romanian translation for tigervnc.
-# Mesajele în limba română pentru pachetul tigervnc.
+# Romanian translation for OsConnect.
+# Mesajele în limba română pentru pachetul OsConnect.
 # Copyright © 2022, 2024, 2025 the TigerVNC Team (msgids)
-# This file is distributed under the same license as the tigervnc package.
+# This file is distributed under the same license as the OsConnect package.
 # Copyright © 2022, 2024, 2025 TigerVNC Team and many others (see README.rst).
 #
 # Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 2022 - 2025.
 #
-# Cronologia traducerii fișierului „tigervnc”:
-# Traducerea inițială, făcută de R-GC, pentru versiunea tigervnc 1.11.90, mai-2022.
+# Cronologia traducerii fișierului „OsConnect”:
+# Traducerea inițială, făcută de R-GC, pentru versiunea OsConnect 1.11.90, mai-2022.
 # Actualizare a traducerii pentru versiunea 1.12.90, făcută de R-GC, dec-2022.
 # Actualizare a traducerii pentru versiunea 1.13.90, făcută de R-GC, iun-2024.
 # Actualizare a traducerii pentru versiunea 1.14.90, făcută de R-GC, ian-2025.
@@ -16,8 +16,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: tigervnc 1.15.90\n"
-"Report-Msgid-Bugs-To: tigervnc-devel@googlegroups.com\n"
+"Project-Id-Version: OsConnect 1.15.90\n"
+"Report-Msgid-Bugs-To: OsConnect-devel@googlegroups.com\n"
 "POT-Creation-Date: 2025-11-07 10:53+0100\n"
 "PO-Revision-Date: 2025-11-13 13:46+0100\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
@@ -618,8 +618,8 @@ msgstr ""
 "%s"
 
 #: vncviewer/ServerDialog.cxx:175 vncviewer/ServerDialog.cxx:215
-msgid "TigerVNC configuration (*.tigervnc)"
-msgstr "Configurația TigerVNC (*.tigervnc)"
+msgid "TigerVNC configuration (*.OsConnect)"
+msgstr "Configurația TigerVNC (*.OsConnect)"
 
 #: vncviewer/ServerDialog.cxx:176
 msgid "Select a TigerVNC configuration file"
@@ -852,39 +852,39 @@ msgstr "Fereastra 0x%08lx are mai mult de o mască de eveniment X Input 2"
 msgid "Failure grabbing device %i"
 msgstr "Eroare la preluarea dispozitivului %i"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:13
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:13
 #: vncviewer/vncviewer.desktop.in.in:2
 msgid "TigerVNC"
 msgstr "TigerVNC"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:14
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:14
 #: vncviewer/vncviewer.desktop.in.in:4
 msgid "Connect to VNC server and display remote desktop"
 msgstr "Se conectează la serverul VNC și afișează biroul de la distanță"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:17
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:17
 msgid "Virtual Network Computing (VNC) is a remote display system that allows you to view and interact with a virtual desktop environment running on another computer on the network. Using VNC, you can run graphical applications on a remote machine and send only the display from these applications to your local device. This package contains a client which will enable you to connect to other desktops running a VNC server. VNC is platform-independent and supports various operating systems and architectures as both servers and clients."
 msgstr "Calculatoare în rețea virtuală ⟶ (Virtual Network Computing) «VNC» este un sistem de afișare la distanță care vă permite să vizualizați și să interacționați cu un mediu de birou virtual care rulează pe un alt computer din rețea. Folosind VNC, puteți rula aplicații grafice pe o mașină de la distanță și puteți trimite numai afișarea din aceste aplicații pe dispozitivul local. Acest pachet conține un client care vă va permite să vă conectați la alte calculatoare care rulează un server VNC. VNC este independent de platformă și acceptă diverse sisteme de operare și arhitecturi atât ca servere, cât și ca clienți."
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:23
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:23
 msgid "TigerVNC is a high-speed version of VNC based on the RealVNC 4 and X.org code bases. TigerVNC started as a next-generation development effort for TightVNC on Unix and Linux platforms, but it split from its parent project in early 2009 so that TightVNC could focus on Windows platforms. TigerVNC supports a variant of Tight encoding that is greatly accelerated by the use of the libjpeg-turbo JPEG codec."
 msgstr "TigerVNC este o versiune de mare viteză a VNC bazată pe bazele codurilor RealVNC 4 și X.org. TigerVNC a început ca un efort de dezvoltare de ultimă generație pentru TightVNC pe platformele Unix și Linux, dar s-a despărțit de proiectul său părinte la începutul anului 2009, astfel încât TightVNC să se poată concentra pe platformele Windows. TigerVNC acceptă o variantă de codificare Tight care este mult accelerată prin utilizarea codec-ului JPEG libjpeg-turbo."
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:33
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:33
 msgid "TigerVNC connection to a CentOS machine"
 msgstr "Conexiune a TigerVNC la o mașină «GNU/Linux»"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:37
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:37
 msgid "TigerVNC connection to a macOS machine"
 msgstr "Conexiune a TigerVNC la o mașină «macOS»"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:41
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:41
 msgid "TigerVNC connection to a Windows machine"
 msgstr "Conexiune a TigerVNC la o mașină «Windows»"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:46
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:48
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:46
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:48
 msgid "The TigerVNC team"
 msgstr "Echipa TigerVNC"
 
@@ -1017,12 +1017,12 @@ msgid ""
 "TigerVNC v%s\n"
 "Built on: %s\n"
 "Copyright (C) 1999-%d TigerVNC team and many others (see README.rst)\n"
-"See https://www.tigervnc.org for information on TigerVNC."
+"See https://www.OsConnect.org for information on TigerVNC."
 msgstr ""
 "TigerVNC versiunea %s\n"
 "Construit pe: %s\n"
 "Drepturi de autor © 1999-%d Echipa TigerVNC și mulți alții (vedeți fișierul README.rst)\n"
-"Consultați https://www.tigervnc.org pentru informații despre TigerVNC."
+"Consultați https://www.OsConnect.org pentru informații despre TigerVNC."
 
 #: vncviewer/vncviewer.cxx:173
 msgid "About TigerVNC"
@@ -1103,14 +1103,14 @@ msgid ""
 "       %s [parameters] [host][::port]\n"
 "       %s [parameters] [unix socket]\n"
 "       %s [parameters] -listen [port]\n"
-"       %s [parameters] [.tigervnc file]\n"
+"       %s [parameters] [.OsConnect file]\n"
 msgstr ""
 "\n"
 "Utilizare: %s [parametri] [gazda][:Număr-ecran]\n"
 "           %s [parametri] [gazda][::port]\n"
 "           %s [parametri] [soclu unix]\n"
 "           %s [parametri] -listen [port]\n"
-"           %s [parametri] [fișier .tigervnc]\n"
+"           %s [parametri] [fișier .OsConnect]\n"
 
 #: vncviewer/vncviewer.cxx:465
 #, c-format

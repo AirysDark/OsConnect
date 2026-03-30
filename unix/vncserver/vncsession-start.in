@@ -18,7 +18,7 @@
 #  USA.
 #
 
-USERSFILE="@CMAKE_INSTALL_FULL_SYSCONFDIR@/tigervnc/vncserver.users"
+USERSFILE="@CMAKE_INSTALL_FULL_SYSCONFDIR@/OsConnect/vncserver.users"
 
 if [ $# -ne 1 ]; then
 	echo "Syntax:" >&2

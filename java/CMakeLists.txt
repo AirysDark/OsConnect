@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10.0)
 
-project(tigervnc-java Java)
+project(OsConnect-java Java)
 if(NOT VERSION)
   set(VERSION 1.16.80)
 endif()
@@ -12,7 +12,7 @@ set(JAVACFLAGS ${DEFAULT_JAVACFLAGS} CACHE STRING
   "Java compiler flags (Default: ${DEFAULT_JAVACFLAGS})")
 message(STATUS "Java compiler flags = ${JAVACFLAGS}")
 
-set(CLASSPATH com/tigervnc/vncviewer)
+set(CLASSPATH com/OsConnect/vncviewer)
 set(SRCDIR ${CMAKE_CURRENT_SOURCE_DIR})
 set(BINDIR ${CMAKE_CURRENT_BINARY_DIR})
 set(JAVA_KEYSTORE NOTFOUND CACHE STRING "URL of keystore location")
@@ -104,9 +104,9 @@ endforeach()
 
 file(GLOB DEPEND_SOURCES
   ${SRCDIR}/${CLASSPATH}/*.java
-  ${SRCDIR}/com/tigervnc/rfb/*.java
-  ${SRCDIR}/com/tigervnc/rdr/*.java
-  ${SRCDIR}/com/tigervnc/network/*.java
+  ${SRCDIR}/com/OsConnect/rfb/*.java
+  ${SRCDIR}/com/OsConnect/rdr/*.java
+  ${SRCDIR}/com/OsConnect/network/*.java
   ${SRCDIR}/com/jcraft/jsch/*.java
   ${SRCDIR}/com/jcraft/jsch/jcraft/*.java
   ${SRCDIR}/com/jcraft/jsch/jgss/*.java
@@ -125,8 +125,8 @@ configure_file(${CLASSPATH}/timestamp.in ${CLASSPATH}/timestamp)
 if(NOT "${SRCDIR}" STREQUAL "${BINDIR}")
 
 set(ICONS
-tigervnc.ico
-tigervnc.png
+OsConnect.ico
+OsConnect.png
 insecure.png
 secure.png)
 
@@ -146,8 +146,8 @@ add_custom_command(OUTPUT VncViewer.jar
   DEPENDS ${JAVA_CLASSES}
     ${SRCDIR}/${CLASSPATH}/MANIFEST.MF
     ${BINDIR}/${CLASSPATH}/timestamp
-    ${BINDIR}/${CLASSPATH}/tigervnc.ico
-    ${BINDIR}/${CLASSPATH}/tigervnc.png
+    ${BINDIR}/${CLASSPATH}/OsConnect.ico
+    ${BINDIR}/${CLASSPATH}/OsConnect.png
     ${BINDIR}/${CLASSPATH}/insecure.png
     ${BINDIR}/${CLASSPATH}/secure.png
   COMMAND ${JAVA_ARCHIVE}
@@ -155,15 +155,15 @@ add_custom_command(OUTPUT VncViewer.jar
     ${SRCDIR}/${CLASSPATH}/MANIFEST.MF
     ${CLASSPATH}/timestamp
     ${CLASSPATH}/*.class
-    com/tigervnc/rfb/*.class
-    com/tigervnc/rdr/*.class
-    com/tigervnc/network/*.class
+    com/OsConnect/rfb/*.class
+    com/OsConnect/rdr/*.class
+    com/OsConnect/network/*.class
     com/jcraft/jzlib/*.class
     com/jcraft/jsch/jcraft/*.class
     com/jcraft/jsch/jce/*.class
     com/jcraft/jsch/*.class
-    com/tigervnc/vncviewer/*.png
-    com/tigervnc/vncviewer/tigervnc.ico
+    com/OsConnect/vncviewer/*.png
+    com/OsConnect/vncviewer/OsConnect.ico
   COMMAND ${CMAKE_COMMAND}
   ARGS -DJava_PATH=${Java_PATH} -DJAR_FILE=${BINDIR}/VncViewer.jar
     -DJAVA_KEYSTORE=${JAVA_KEYSTORE}

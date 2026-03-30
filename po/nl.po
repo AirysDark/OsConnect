@@ -1,14 +1,14 @@
 # Dutch translations for TigerVNC.
 # Copyright (C) the TigerVNC Team (msgids)
-# This file is distributed under the same license as the tigervnc package.
+# This file is distributed under the same license as the OsConnect package.
 #
 # "That said, you owe me a new keyboard."
 #
 # Benno Schulenberg <benno@vertaalt.nl>, 2014, 2015, 2016, 2017.
 msgid ""
 msgstr ""
-"Project-Id-Version: tigervnc 1.7.90\n"
-"Report-Msgid-Bugs-To: tigervnc-devel@googlegroups.com\n"
+"Project-Id-Version: OsConnect 1.7.90\n"
+"Report-Msgid-Bugs-To: OsConnect-devel@googlegroups.com\n"
 "POT-Creation-Date: 2017-04-19 13:05+0000\n"
 "PO-Revision-Date: 2017-05-03 20:34+0200\n"
 "Last-Translator: Benno Schulenberg <benno@vertaalt.nl>\n"
@@ -565,12 +565,12 @@ msgid ""
 "TigerVNC Viewer %d-bit v%s\n"
 "Built on: %s\n"
 "Copyright (C) 1999-%d TigerVNC Team and many others (see README.txt)\n"
-"See http://www.tigervnc.org for information on TigerVNC."
+"See http://www.OsConnect.org for information on TigerVNC."
 msgstr ""
 "TigerVNC Viewer (%d-bit) v%s\n"
 "Gecompileerd op: %s\n"
 "Copyright (C) 1999-%d het TigerVNC-team en vele anderen (zie README.txt)\n"
-"Zie http://www.tigervnc.org voor informatie over TigerVNC."
+"Zie http://www.OsConnect.org voor informatie over TigerVNC."
 
 #: vncviewer/vncviewer.cxx:127
 msgid "About TigerVNC Viewer"

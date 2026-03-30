@@ -45,7 +45,7 @@
 extern char **environ;
 
 // PAM service name
-const char *SERVICE_NAME = "tigervnc";
+const char *SERVICE_NAME = "OsConnect";
 
 // Main script PID
 static volatile pid_t script = -1;
@@ -410,13 +410,13 @@ redir_stdio(const char *homedir, const char *display, char **envp)
 
     xdgstate = getenvp("XDG_STATE_HOME", envp);
     if (xdgstate != NULL && xdgstate[0] == '/') {
-        fmt_len = snprintf(logdir, sizeof(logdir), "%s/tigervnc", xdgstate);
+        fmt_len = snprintf(logdir, sizeof(logdir), "%s/OsConnect", xdgstate);
         if (fmt_len >= sizeof(logdir)) {
             syslog(LOG_CRIT, "Log dir path too long");
             _exit(EX_OSERR);
         }
     } else {
-        fmt_len = snprintf(logdir, sizeof(logdir), "%s/.local/state/tigervnc", homedir);
+        fmt_len = snprintf(logdir, sizeof(logdir), "%s/.local/state/OsConnect", homedir);
         if (fmt_len >= sizeof(logdir)) {
             syslog(LOG_CRIT, "Log dir path too long");
             _exit(EX_OSERR);

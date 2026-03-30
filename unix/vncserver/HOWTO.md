@@ -30,8 +30,8 @@ To configure Xvnc parameters, you need to go to the same directory where
 you did the user mapping and open `vncserver-config-defaults`
 configuration file. This file is for the default Xvnc configuration and
 will be applied to every user unless any of the following applies:
-* The user has its own configuration in `$XDG_CONFIG_HOME/tigervnc/config`
-  or `$HOME/.config/tigervnc/config`.
+* The user has its own configuration in `$XDG_CONFIG_HOME/OsConnect/config`
+  or `$HOME/.config/OsConnect/config`.
 * The same option with different value is configured in 
   `vncserver-config-mandatory` configuration file, which replaces the
   default configuration and has even a higher priority than the per-user

@@ -748,7 +748,7 @@ void saveViewerParameters(const char *filename, const char *servername) {
     if (configDir == nullptr)
       throw std::runtime_error(_("Could not determine VNC config directory path"));
 
-    snprintf(filepath, sizeof(filepath), "%s/default.tigervnc", configDir);
+    snprintf(filepath, sizeof(filepath), "%s/default.OsConnect", configDir);
   } else {
     snprintf(filepath, sizeof(filepath), "%s", filename);
   }
@@ -826,7 +826,7 @@ char* loadViewerParameters(const char *filename) {
     if (configDir == nullptr)
       throw std::runtime_error(_("Could not determine VNC config directory path"));
 
-    snprintf(filepath, sizeof(filepath), "%s/default.tigervnc", configDir);
+    snprintf(filepath, sizeof(filepath), "%s/default.OsConnect", configDir);
   } else {
     snprintf(filepath, sizeof(filepath), "%s", filename);
   }

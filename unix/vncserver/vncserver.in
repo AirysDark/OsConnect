@@ -36,8 +36,8 @@
 #
 
 $vncUserDir = rindex("$ENV{XDG_CONFIG_HOME}", "/", 0) == 0
-  ? "$ENV{XDG_CONFIG_HOME}/tigervnc"
-  : "$ENV{HOME}/.config/tigervnc";
+  ? "$ENV{XDG_CONFIG_HOME}/OsConnect"
+  : "$ENV{HOME}/.config/OsConnect";
 $vncLegacyDir = "$ENV{HOME}/.vnc";
 if (!stat($vncUserDir) && stat($vncLegacyDir)) {
   warn "~/.vnc is deprecated, please consult 'man vncsession' for paths to migrate to.";
@@ -46,7 +46,7 @@ if (!stat($vncUserDir) && stat($vncLegacyDir)) {
 
 $vncUserConfig = "$vncUserDir/config";
 
-$vncSystemConfigDir = "@CMAKE_INSTALL_FULL_SYSCONFDIR@/tigervnc";
+$vncSystemConfigDir = "@CMAKE_INSTALL_FULL_SYSCONFDIR@/OsConnect";
 $vncSystemConfigDefaultsFile = "$vncSystemConfigDir/vncserver-config-defaults";
 $vncSystemConfigMandatoryFile = "$vncSystemConfigDir/vncserver-config-mandatory";
 

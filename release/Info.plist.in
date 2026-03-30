@@ -13,9 +13,9 @@
 	<key>CFBundleGetInfoString</key>
 	<string>@VERSION@, Copyright (C) 1999-2026 TigerVNC team and many others (see README.rst)</string>
 	<key>CFBundleIconFile</key>
-	<string>tigervnc.icns</string>
+	<string>OsConnect.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.tigervnc.tigervnc</string>
+	<string>com.OsConnect.OsConnect</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleLongVersionString</key>

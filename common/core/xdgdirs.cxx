@@ -73,9 +73,9 @@ static const char* getvncdir(bool userDir, const char *xdg_env, const char *xdg_
 
   xdgdir = getenv(xdg_env);
   if (xdgdir != nullptr && xdgdir[0] == '/')
-    snprintf(dir, sizeof(dir), "%s/tigervnc", xdgdir);
+    snprintf(dir, sizeof(dir), "%s/OsConnect", xdgdir);
   else
-    snprintf(dir, sizeof(dir), "%s/%s/tigervnc", homedir, xdg_def);
+    snprintf(dir, sizeof(dir), "%s/%s/OsConnect", homedir, xdg_def);
 
   snprintf(legacy, sizeof(legacy), "%s/.vnc", homedir);
 #else

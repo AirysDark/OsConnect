@@ -10,13 +10,13 @@ display choice configuration.
 
 .SH FILES
 .TP
-\fI$XDG_STATE_HOME/tigervnc/restoretoken\fP
+\fI$XDG_STATE_HOME/OsConnect/restoretoken\fP
 Default location of the restoretoken file.
 
 .SH SEE ALSO
 .BR w0vncserver (1),
 .br
-https://www.tigervnc.org/
+https://www.OsConnect.org/
 
 .SH AUTHOR
 TigerVNC Team

@@ -56,7 +56,7 @@ static const char* MIME_TYPES[] {
 *  indicate ownership.
 *  https://gitlab.freedesktop.org/wlroots/wlr-protocols/-/issues/111
 */
-static std::string tigervncMimeType = "application/x-tigervnc-data-control-" + std::to_string(getpid());
+static std::string OsConnectMimeType = "application/x-OsConnect-data-control-" + std::to_string(getpid());
 
 struct PendingData {
   int32_t fd;
@@ -331,7 +331,7 @@ void DataControl::handleSelection(ext_data_control_offer_v1* offer)
   }
 
   // Ignore our own requests
-  if (availableMimeTypes.find(tigervncMimeType) != availableMimeTypes.end())
+  if (availableMimeTypes.find(OsConnectMimeType) != availableMimeTypes.end())
     return;
 
   validMimeType = false;
@@ -364,7 +364,7 @@ void DataControl::handlePrimarySelection(ext_data_control_offer_v1* offer)
   }
 
   // Ignore our own requests
-  if (availableMimeTypes.find(tigervncMimeType) != availableMimeTypes.end())
+  if (availableMimeTypes.find(OsConnectMimeType) != availableMimeTypes.end())
     return;
 
   validMimeType = false;
@@ -515,7 +515,7 @@ ext_data_control_source_v1* DataControl::createDataSource()
 
   ext_data_control_source_v1_add_listener(source, &sourceListener, this);
 
-  ext_data_control_source_v1_offer(source, tigervncMimeType.c_str());
+  ext_data_control_source_v1_offer(source, OsConnectMimeType.c_str());
   for (const char* mimeType : MIME_TYPES)
     ext_data_control_source_v1_offer(source, mimeType);
 

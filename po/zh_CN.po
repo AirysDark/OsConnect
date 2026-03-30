@@ -1,14 +1,14 @@
 # TigerVNC in zh_CN
 # Copyright (C) 2015 the TigerVNC Team (msgids)
-# This file is distributed under the same license as the tigervnc package.
+# This file is distributed under the same license as the OsConnect package.
 # Mingcong Bai <jeffbai@aosc.xyz>, 2015.
 # Mingye Wang (Artoria2e5) <arthur200126@gmail.com>, 2016, 2024.
 # Boyuan Yang <073plan@gmail.com>, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: tigervnc 1.13.90\n"
-"Report-Msgid-Bugs-To: tigervnc-devel@googlegroups.com\n"
+"Project-Id-Version: OsConnect 1.13.90\n"
+"Report-Msgid-Bugs-To: OsConnect-devel@googlegroups.com\n"
 "POT-Creation-Date: 2024-06-20 15:01+0200\n"
 "PO-Revision-Date: 2024-09-02 12:19+0800\n"
 "Last-Translator: Mingye Wang (Artoria2e5) <arthur200126@gmail.com>\n"
@@ -411,8 +411,8 @@ msgstr ""
 "%s"
 
 #: vncviewer/ServerDialog.cxx:172 vncviewer/ServerDialog.cxx:212
-msgid "TigerVNC configuration (*.tigervnc)"
-msgstr "TigerVNC 配置（*.tigervnc）"
+msgid "TigerVNC configuration (*.OsConnect)"
+msgstr "TigerVNC 配置（*.OsConnect）"
 
 #: vncviewer/ServerDialog.cxx:173
 msgid "Select a TigerVNC configuration file"
@@ -697,33 +697,33 @@ msgstr "窗口 0x%08lx 具有多个 X Input 2 事件掩码"
 msgid "Failure grabbing device %i"
 msgstr "抓取设备 %i 失败"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:13
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:13
 #: vncviewer/vncviewer.cxx:389 vncviewer/vncviewer.desktop.in.in:3
 msgid "TigerVNC Viewer"
 msgstr "TigerVNC 查看器"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:14
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:14
 #: vncviewer/vncviewer.desktop.in.in:5
 msgid "Connect to VNC server and display remote desktop"
 msgstr "连接到 VNC 服务器并显示远程桌面"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:17
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:17
 msgid "Virtual Network Computing (VNC) is a remote display system that allows you to view and interact with a virtual desktop environment running on another computer on the network. Using VNC, you can run graphical applications on a remote machine and send only the display from these applications to your local device. This package contains a client which will enable you to connect to other desktops running a VNC server. VNC is platform-independent and supports various operating systems and architectures as both servers and clients."
 msgstr "虚拟网络计算（VNC）是一种远程显示系统，允许您查看网络上另一台计算机上运行的虚拟桌面环境并与之交互。通过 VNC，您可以在远程计算机上运行图形应用程序，并仅将这些应用程序显示的内容发送到本地设备。此软件包含有一个客户端，通过该客户端，您可以连接到运行 VNC 服务器的其他桌面。VNC 支持各种操作系统和架构作为服务器和客户端。"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:23
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:23
 msgid "TigerVNC is a high-speed version of VNC based on the RealVNC 4 and X.org code bases. TigerVNC started as a next-generation development effort for TightVNC on Unix and Linux platforms, but it split from its parent project in early 2009 so that TightVNC could focus on Windows platforms. TigerVNC supports a variant of Tight encoding that is greatly accelerated by the use of the libjpeg-turbo JPEG codec."
 msgstr "TigerVNC 是基于 RealVNC 4 和 X.org 代码库的高速 VNC 版本。TigerVNC 最初是 Unix 和 Linux 平台上 TightVNC 的下一代开发工作，但它在 2009 年初从其父项目中分离出来，以便 TightVNC 专注于 Windows 平台。TigerVNC 支持 Tight 编码的一种变体，通过使用 libjpeg-turbo JPEG 编解码器大大加速。"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:33
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:33
 msgid "TigerVNC Viewer connection to a CentOS machine"
 msgstr "TigerVNC Viewer 连接到 CentOS 机器"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:37
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:37
 msgid "TigerVNC Viewer connection to a macOS machine"
 msgstr "TigerVNC Viewer 连接到 macOS 机器"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:41
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:41
 msgid "TigerVNC Viewer connection to a Windows machine"
 msgstr "TigerVNC Viewer 连接到 Windows 机器"
 
@@ -850,12 +850,12 @@ msgid ""
 "TigerVNC Viewer v%s\n"
 "Built on: %s\n"
 "Copyright (C) 1999-%d TigerVNC Team and many others (see README.rst)\n"
-"See https://www.tigervnc.org for information on TigerVNC."
+"See https://www.OsConnect.org for information on TigerVNC."
 msgstr ""
 "TigerVNC 查看器 v%s\n"
 "构建于：%s\n"
 "版权所有 1999-%d TigerVNC 团队及众多开发者（参见 README.txt）\n"
-"访问 http://www.tigervnc.org 以获取更多关于 TigerVNC 的信息。"
+"访问 http://www.OsConnect.org 以获取更多关于 TigerVNC 的信息。"
 
 #: vncviewer/vncviewer.cxx:158
 #, c-format

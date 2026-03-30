@@ -1,12 +1,12 @@
-# Chinese (Traditional) translation of tigervnc
+# Chinese (Traditional) translation of OsConnect
 # Copyright (C) 2019 the TigerVNC Team (msgids)
-# This file is distributed under the same license as the tigervnc package.
+# This file is distributed under the same license as the OsConnect package.
 #
 # pan93412 <pan93412@gmail.com>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: tigervnc 1.14.90\n"
-"Report-Msgid-Bugs-To: tigervnc-devel@googlegroups.com\n"
+"Project-Id-Version: OsConnect 1.14.90\n"
+"Report-Msgid-Bugs-To: OsConnect-devel@googlegroups.com\n"
 "POT-Creation-Date: 2025-01-14 16:15+0100\n"
 "PO-Revision-Date: 2025-02-02 00:23+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
@@ -481,8 +481,8 @@ msgstr ""
 "%s"
 
 #: vncviewer/ServerDialog.cxx:176 vncviewer/ServerDialog.cxx:216
-msgid "TigerVNC configuration (*.tigervnc)"
-msgstr "TigerVNC 組態設定 (*.tigervnc)"
+msgid "TigerVNC configuration (*.OsConnect)"
+msgstr "TigerVNC 組態設定 (*.OsConnect)"
 
 #: vncviewer/ServerDialog.cxx:177
 msgid "Select a TigerVNC configuration file"
@@ -709,38 +709,38 @@ msgstr "視窗 0x%08lx 有超過一個 X Input 2 事件遮罩"
 msgid "Failure grabbing device %i"
 msgstr "擷取裝置 %i 失敗"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:13
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:13
 msgid "TigerVNC Viewer"
 msgstr "TigerVNC 檢視器"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:14
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:14
 #: vncviewer/vncviewer.desktop.in.in:5
 msgid "Connect to VNC server and display remote desktop"
 msgstr "連線到 VNC 伺服器並顯示遠端桌面"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:17
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:17
 msgid "Virtual Network Computing (VNC) is a remote display system that allows you to view and interact with a virtual desktop environment running on another computer on the network. Using VNC, you can run graphical applications on a remote machine and send only the display from these applications to your local device. This package contains a client which will enable you to connect to other desktops running a VNC server. VNC is platform-independent and supports various operating systems and architectures as both servers and clients."
 msgstr "Virtual Network Computing (VNC) 是個遠端顯示系統，讓您能檢視網路上其他電腦的虛擬桌面環境並與之互動。您可以使用 VNC 來執行圖形化的應用程式，並只回傳這些應用程式的顯示畫面到您的本地裝置。本套件包含 VNC 用戶端，讓您可以連線到其他執行著 VNC 伺服器的桌面。VNC 不受平台侷限，無論是伺服器還是用戶端，都支援各種作業系統和架構。"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:23
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:23
 msgid "TigerVNC is a high-speed version of VNC based on the RealVNC 4 and X.org code bases. TigerVNC started as a next-generation development effort for TightVNC on Unix and Linux platforms, but it split from its parent project in early 2009 so that TightVNC could focus on Windows platforms. TigerVNC supports a variant of Tight encoding that is greatly accelerated by the use of the libjpeg-turbo JPEG codec."
 msgstr "TigerVNC 是以 RealVNC 4 和 X.org 程式碼為基礎打造的 VNC 高速版本。TigerVNC 原先是 TightVNC 在 Unix 和 Linux 平台上的下一代開發成果，但在 2009 年初從原本的專案中分離，讓 TigerVNC 得以專注在 Windows 平台上。TigerVNC 支援 Tight 編碼的變體版本，透過 libjpeg-turbo JPEG 編解碼器，使其速度獲得相當大的提升。"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:33
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:33
 msgid "TigerVNC viewer connection to a CentOS machine"
 msgstr "連線至 CentOS 機器的 TigerVNC 檢視器"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:37
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:37
 msgid "TigerVNC viewer connection to a macOS machine"
 msgstr "連線至 macOS 機器的 TigerVNC 檢視器"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:41
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:41
 msgid "TigerVNC viewer connection to a Windows machine"
 msgstr "連線至 Windows 機器的 TigerVNC 檢視器"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:46
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:48
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:46
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:48
 msgid "The TigerVNC team"
 msgstr "TigerVNC 團隊"
 
@@ -862,12 +862,12 @@ msgid ""
 "TigerVNC viewer v%s\n"
 "Built on: %s\n"
 "Copyright (C) 1999-%d TigerVNC team and many others (see README.rst)\n"
-"See https://www.tigervnc.org for information on TigerVNC."
+"See https://www.OsConnect.org for information on TigerVNC."
 msgstr ""
 "TigerVNC 檢視器 v%s\n"
 "編譯時間：%s\n"
 "著作權所有 (C) 1999-%d TigerVNC 團隊以及其他人 (詳閱 README.rst)\n"
-"前往 https://www.tigervnc.org 取得 TigerVNC 的相關資訊。"
+"前往 https://www.OsConnect.org 取得 TigerVNC 的相關資訊。"
 
 #: vncviewer/vncviewer.cxx:158
 #, c-format
@@ -963,14 +963,14 @@ msgid ""
 "       %s [parameters] [host][::port]\n"
 "       %s [parameters] [unix socket]\n"
 "       %s [parameters] -listen [port]\n"
-"       %s [parameters] [.tigervnc file]\n"
+"       %s [parameters] [.OsConnect file]\n"
 msgstr ""
 "\n"
 "用法：%s [參數] [主機][:顯示器編號]\n"
 "      %s [參數] [主機][::通訊埠]\n"
 "      %s [參數] [unix 通訊端]\n"
 "      %s [參數] -listen [通訊埠]\n"
-"      %s [參數] [.tigervnc 檔案]\n"
+"      %s [參數] [.OsConnect 檔案]\n"
 
 #: vncviewer/vncviewer.cxx:465
 #, c-format
@@ -1192,8 +1192,8 @@ msgstr "遠端桌面檢視器"
 #~ msgid "Could not create VNC home directory: can't obtain home directory path."
 #~ msgstr "無法建立 VNC 家目錄：無法取得家目錄路徑。"
 
-#~ msgid "tigervnc"
-#~ msgstr "tigervnc"
+#~ msgid "OsConnect"
+#~ msgstr "OsConnect"
 
 #~ msgid "Enabling continuous updates"
 #~ msgstr "啟用持續更新功能"

@@ -1,12 +1,12 @@
 # Korean Translation for TigerVNC.
 # Copyright (C) 2009-2023 TigerVNC Team and many others (see README.rst)
-# This file is distributed under the same license as the tigervnc package.
+# This file is distributed under the same license as the OsConnect package.
 # JiYoon Kwon <bbkjo0123@gmail.com>, 2023.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: tigervnc 1.12.90\n"
-"Report-Msgid-Bugs-To: tigervnc-devel@googlegroups.com\n"
+"Project-Id-Version: OsConnect 1.12.90\n"
+"Report-Msgid-Bugs-To: OsConnect-devel@googlegroups.com\n"
 "POT-Creation-Date: 2022-12-15 16:35+0100\n"
 "PO-Revision-Date: 2023-08-15 23:51+0900\n"
 "Last-Translator: JiYoon Kwon <bbkjo0123@gmail.com>\n"
@@ -417,8 +417,8 @@ msgstr ""
 "%s"
 
 #: vncviewer/ServerDialog.cxx:173 vncviewer/ServerDialog.cxx:212
-msgid "TigerVNC configuration (*.tigervnc)"
-msgstr "TigerVNC 환경 설정(*.tigervnc)"
+msgid "TigerVNC configuration (*.OsConnect)"
+msgstr "TigerVNC 환경 설정(*.OsConnect)"
 
 # 구성 vs 환경설정
 #: vncviewer/ServerDialog.cxx:174
@@ -706,33 +706,33 @@ msgstr "창 0x%08lx에 X Input 2 이벤트 마스크가 두 개 이상 존재함
 msgid "Failure grabbing device %i"
 msgstr "장치 %i을(를) 가져오지 못함"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:13
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:13
 #: vncviewer/vncviewer.cxx:406 vncviewer/vncviewer.desktop.in.in:3
 msgid "TigerVNC Viewer"
 msgstr "TigerVNC 뷰어"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:14
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:14
 #: vncviewer/vncviewer.desktop.in.in:5
 msgid "Connect to VNC server and display remote desktop"
 msgstr "VNC 서버와 연결하고 원격 데스크톱을 보입니다"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:17
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:17
 msgid "Virtual Network Computing (VNC) is a remote display system that allows you to view and interact with a virtual desktop environment running on another computer on the network. Using VNC, you can run graphical applications on a remote machine and send only the display from these applications to your local device. This package contains a client which will enable you to connect to other desktops running a VNC server. VNC is platform-independent and supports various operating systems and architectures as both servers and clients."
 msgstr "가상 네트워크 컴퓨팅(Virtual Network Computing, VNC)이란 네트워크를 통해 다른 컴퓨터에서 실행 중인 가상 데스크톱 환경을 보고 상호작용할 수 있는 원격 디스플레이 시스템입니다. VNC을 사용하면 원격 컴퓨터에서 실행한 그래픽 애플리케이션의 화면만 로컬 장치로 전송할 수 있습니다. 이 패키지에는 VNC 서버를 실행하는 다른 데스크톱에 연결할 수 있는 클라이언트가 포함되어 있습니다. VNC는 플랫폼 독립적이며 서버와 클라이언트로서 다양한 운영 체제 및 아키텍처를 지원합니다."
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:23
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:23
 msgid "TigerVNC is a high-speed version of VNC based on the RealVNC 4 and X.org code bases. TigerVNC started as a next-generation development effort for TightVNC on Unix and Linux platforms, but it split from its parent project in early 2009 so that TightVNC could focus on Windows platforms. TigerVNC supports a variant of Tight encoding that is greatly accelerated by the use of the libjpeg-turbo JPEG codec."
 msgstr "TigerVNC는 RealVNC 4와 X.org 코드를 기반으로 한 고속 버전의 VNC입니다. TigerVNC는 Unix 및 Linux 플랫폼에서의 차세대 TightVNC를 개발하기 위해 시작되었지만 2009년 초에 프로젝트에서 분리었고 TightVNC는 Windows 플랫폼에 집중할 수 있게 되었습니다. TigerVNC는 libjpeg-turbo JPEG 코덱을 사용하여 가속화되는 Tight 인코딩의 변형을 지원합니다."
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:33
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:33
 msgid "TigerVNC Viewer connection to a CentOS machine"
 msgstr "CentOS 기기에 대한 TigerVNC 뷰어 연결"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:37
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:37
 msgid "TigerVNC Viewer connection to a macOS machine"
 msgstr "macOS 기기에 대한 TigerVNC 뷰어 연결"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:41
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:41
 msgid "TigerVNC Viewer connection to a Windows machine"
 msgstr "Windows 기기에 대한 TigerVNC 뷰어 연결"
 
@@ -856,12 +856,12 @@ msgid ""
 "TigerVNC Viewer v%s\n"
 "Built on: %s\n"
 "Copyright (C) 1999-%d TigerVNC Team and many others (see README.rst)\n"
-"See https://www.tigervnc.org for information on TigerVNC."
+"See https://www.OsConnect.org for information on TigerVNC."
 msgstr ""
 "TigerVNC Viewer v%s\n"
 "Built on: %s\n"
 "Copyright (C) 1999-%d TigerVNC Team and many others (see README.rst)\n"
-"TigerVNC에 대한 자세한 정보는 https://www.tigervnc.org를 참조하십시오."
+"TigerVNC에 대한 자세한 정보는 https://www.OsConnect.org를 참조하십시오."
 
 #: vncviewer/vncviewer.cxx:161
 #, c-format
@@ -1048,5 +1048,5 @@ msgstr "원격 데스크톱 뷰어"
 #~ msgid "Could not create VNC home directory: can't obtain home directory path."
 #~ msgstr "VNC 홈 디렉토리 생성 불가: 홈 디렉토리 경로를 찾을 수 없습니다."
 
-#~ msgid "tigervnc"
-#~ msgstr "tigervnc"
+#~ msgid "OsConnect"
+#~ msgstr "OsConnect"

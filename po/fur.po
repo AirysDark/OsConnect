@@ -1,12 +1,12 @@
-# Friulian translation for tigervnc.
+# Friulian translation for OsConnect.
 # Copyright (C) 2017 the TigerVNC Team (msgids)
-# This file is distributed under the same license as the tigervnc package.
+# This file is distributed under the same license as the OsConnect package.
 # Fabio Tomat <f.t.public@gmail.com>, 2023.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: tigervnc 1.13.90\n"
-"Report-Msgid-Bugs-To: tigervnc-devel@googlegroups.com\n"
+"Project-Id-Version: OsConnect 1.13.90\n"
+"Report-Msgid-Bugs-To: OsConnect-devel@googlegroups.com\n"
 "POT-Creation-Date: 2024-06-20 15:01+0200\n"
 "PO-Revision-Date: 2024-10-03 17:59+0000\n"
 "Last-Translator: Fabio T. <f.t.public@gmail.com>\n"
@@ -410,7 +410,7 @@ msgstr ""
 "%s"
 
 #: vncviewer/ServerDialog.cxx:172 vncviewer/ServerDialog.cxx:212
-msgid "TigerVNC configuration (*.tigervnc)"
+msgid "TigerVNC configuration (*.OsConnect)"
 msgstr "Configurazion di TigerVNC (*.tighervnc)"
 
 #: vncviewer/ServerDialog.cxx:173
@@ -696,33 +696,33 @@ msgstr "Il barcon 0x%08lx al à plui di une mascare dai events X Input 2"
 msgid "Failure grabbing device %i"
 msgstr "Nol è stât pussibil caturâ il dispositîf %i"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:13
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:13
 #: vncviewer/vncviewer.cxx:389 vncviewer/vncviewer.desktop.in.in:3
 msgid "TigerVNC Viewer"
 msgstr "Visualizadôr TigerVNC"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:14
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:14
 #: vncviewer/vncviewer.desktop.in.in:5
 msgid "Connect to VNC server and display remote desktop"
 msgstr "Conet a un servidôr VNC e visualize il scritori lontan"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:17
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:17
 msgid "Virtual Network Computing (VNC) is a remote display system that allows you to view and interact with a virtual desktop environment running on another computer on the network. Using VNC, you can run graphical applications on a remote machine and send only the display from these applications to your local device. This package contains a client which will enable you to connect to other desktops running a VNC server. VNC is platform-independent and supports various operating systems and architectures as both servers and clients."
 msgstr "Virtual Network Computing (VNC) al è un sisteme par visualizâ di lontan che ti permet di viodi e interagjî cuntun ambient di scritori virtuâl che al zire suntun altri computer in rêt. Doprant VNC tu puedis eseguî aplicazions grafichis suntune machine lontane e inviâ dome la visualizazion di chestis aplicazions al to dispositîf locâl. Chest pachet al conten un client che ti permetarà di fâti coneti a un altri scritori che al eseguìs un servidôr VNC. VNC al è indipendent des plateformis e al supuarte varis sistemis operatîfs e architeturis, sedi come servidôrs che come clients."
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:23
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:23
 msgid "TigerVNC is a high-speed version of VNC based on the RealVNC 4 and X.org code bases. TigerVNC started as a next-generation development effort for TightVNC on Unix and Linux platforms, but it split from its parent project in early 2009 so that TightVNC could focus on Windows platforms. TigerVNC supports a variant of Tight encoding that is greatly accelerated by the use of the libjpeg-turbo JPEG codec."
 msgstr "TigerVNC e je une version a alte velocitât di VNC, basade su RealVNC 4 e lis basis dal codiç di X.org. TigerVNC al è scomençât tant che tentatîf di svilup de prossime gjenerazion di TightVNC pes plateformis Unix e Linux, ma si è separât dal so progjet gjenitôr sul scomençâ dal 2009. In cheste maniere TightVNC al à podût concentrâsi su lis plateformis Windows. TigerVNC al supuarte une variante de codifiche Tight che e je une vore acelerade dal ûs dal codificadôr JPEG llibjpeg-turbo."
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:33
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:33
 msgid "TigerVNC Viewer connection to a CentOS machine"
 msgstr "Conession di Visualizadôr TigerVNC a une machine CentOS"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:37
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:37
 msgid "TigerVNC Viewer connection to a macOS machine"
 msgstr "Conession di Visualizadôr TigerVNC a une machine macOS"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:41
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:41
 msgid "TigerVNC Viewer connection to a Windows machine"
 msgstr "Conession di Visualizadôr TigerVNC a une machine Windows"
 
@@ -849,12 +849,12 @@ msgid ""
 "TigerVNC Viewer v%s\n"
 "Built on: %s\n"
 "Copyright (C) 1999-%d TigerVNC Team and many others (see README.rst)\n"
-"See https://www.tigervnc.org for information on TigerVNC."
+"See https://www.OsConnect.org for information on TigerVNC."
 msgstr ""
 "Visualizadôr TigerVNC v%s\n"
 "Compilât su: %s\n"
 "Copyright (C) 1999-%d Il grup di TigerVNC e tancj altris (viôt README.rst)\n"
-"Viôt https://www.tigervnc.org par informazions su TigerVNC."
+"Viôt https://www.OsConnect.org par informazions su TigerVNC."
 
 #: vncviewer/vncviewer.cxx:158
 #, c-format

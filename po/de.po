@@ -1,13 +1,13 @@
-# German translation of tigervnc.
+# German translation of OsConnect.
 # Copyright (C) 2014 the TigerVNC Team (msgids)
-# This file is distributed under the same license as the tigervnc package.
+# This file is distributed under the same license as the OsConnect package.
 #
 # Klaus Franken <Klaus.Franken@StrukturPunkt.de>, 2005.
 # Mario Blättermann <mario.blaettermann@gmail.com>, 2014-2016, 2019, 2021-2022, 2025.
 msgid ""
 msgstr ""
-"Project-Id-Version: tigervnc 1.15.90\n"
-"Report-Msgid-Bugs-To: tigervnc-devel@googlegroups.com\n"
+"Project-Id-Version: OsConnect 1.15.90\n"
+"Report-Msgid-Bugs-To: OsConnect-devel@googlegroups.com\n"
 "POT-Creation-Date: 2025-11-07 10:53+0100\n"
 "PO-Revision-Date: 2025-11-13 19:47+0100\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
@@ -553,8 +553,8 @@ msgstr ""
 "%s"
 
 #: vncviewer/ServerDialog.cxx:175 vncviewer/ServerDialog.cxx:215
-msgid "TigerVNC configuration (*.tigervnc)"
-msgstr "TigerVNC-Konfiguration (*.tigervnc)"
+msgid "TigerVNC configuration (*.OsConnect)"
+msgstr "TigerVNC-Konfiguration (*.OsConnect)"
 
 #: vncviewer/ServerDialog.cxx:176
 msgid "Select a TigerVNC configuration file"
@@ -787,39 +787,39 @@ msgstr "Window 0x%08lx hat mehrere X-Input2-Ereignismasken"
 msgid "Failure grabbing device %i"
 msgstr "Fehler beim Erkennen des Geräts %i"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:13
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:13
 #: vncviewer/vncviewer.desktop.in.in:2
 msgid "TigerVNC"
 msgstr "TigerVNC"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:14
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:14
 #: vncviewer/vncviewer.desktop.in.in:4
 msgid "Connect to VNC server and display remote desktop"
 msgstr "Mite einem VNC-Server verbinden und einen fernen Desktop anzeigen"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:17
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:17
 msgid "Virtual Network Computing (VNC) is a remote display system that allows you to view and interact with a virtual desktop environment running on another computer on the network. Using VNC, you can run graphical applications on a remote machine and send only the display from these applications to your local device. This package contains a client which will enable you to connect to other desktops running a VNC server. VNC is platform-independent and supports various operating systems and architectures as both servers and clients."
 msgstr "Virtual Network Computing (VNC) ist ein Anzeigesystem für ferne Rechner, dass es Ihnen ermöglicht, eine Arbeitsumgebung auf einem anderen Rechner im Netzwerk zu betrachten und damit zu interagieren. Mit VNC können Sie auf dem fernen Rechner grafische Anwendungen ausführen und lediglich die Anzeige dieser Anwendungen auf Ihr lokales Gerät holen. Dieses Paket enthält einen Client, mit dem Sie sich mit über einen laufenden VNC-Server mit anderen Arbeitsumgebungen verbinden können. VNC ist plattformunabhängig und unterstützt verschiedene Betriebssysteme und Architekturen als sowohl Server als auch Client."
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:23
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:23
 msgid "TigerVNC is a high-speed version of VNC based on the RealVNC 4 and X.org code bases. TigerVNC started as a next-generation development effort for TightVNC on Unix and Linux platforms, but it split from its parent project in early 2009 so that TightVNC could focus on Windows platforms. TigerVNC supports a variant of Tight encoding that is greatly accelerated by the use of the libjpeg-turbo JPEG codec."
 msgstr "TigerVNC ist eine Hochgeschwindigkeitsversion von VNC, basierend auf den Codebasen von RealVNC 4 und X.org. TigerVNC begann als Weiterentwicklung von TightVNC auf Unix- und Linux-Plattformen und trennte sich Anfang 2009 von seinem Vorgängerprojekt, so dass sich TightVNC auf Windows-Plattformen konzentrieren konnte. TigerVNC unterstützt eine Variante von Tight Encoding, das durch die Verwendung des JPEG-Codecs »libjpeg-turbo« erheblich beschleunigt wird."
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:33
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:33
 msgid "TigerVNC connection to a CentOS machine"
 msgstr "TigerVNC-Verbindung zu einem CentOS-Rechner"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:37
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:37
 msgid "TigerVNC connection to a macOS machine"
 msgstr "TigerVNC-Verbindung zu einem macOS-Rechner"
 
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:41
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:41
 msgid "TigerVNC connection to a Windows machine"
 msgstr "TigerVNC-Verbindung zu einem Windows-Rechner"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:46
-#: vncviewer/org.tigervnc.vncviewer.metainfo.xml.in:48
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:46
+#: vncviewer/org.OsConnect.vncviewer.metainfo.xml.in:48
 msgid "The TigerVNC team"
 msgstr "Das TigerVNC-Team"
 
@@ -941,12 +941,12 @@ msgid ""
 "TigerVNC v%s\n"
 "Built on: %s\n"
 "Copyright (C) 1999-%d TigerVNC team and many others (see README.rst)\n"
-"See https://www.tigervnc.org for information on TigerVNC."
+"See https://www.OsConnect.org for information on TigerVNC."
 msgstr ""
 "TigerVNC Version %s\n"
 "Erstellt auf: %s\n"
 "Copyright (C) 1999-%d TigerVNC-Team und viele andere (siehe README.rst)\n"
-"Siehe https://www.tigervnc.org für Informationen zu TigerVNC."
+"Siehe https://www.OsConnect.org für Informationen zu TigerVNC."
 
 #: vncviewer/vncviewer.cxx:173
 msgid "About TigerVNC"
@@ -1027,14 +1027,14 @@ msgid ""
 "       %s [parameters] [host][::port]\n"
 "       %s [parameters] [unix socket]\n"
 "       %s [parameters] -listen [port]\n"
-"       %s [parameters] [.tigervnc file]\n"
+"       %s [parameters] [.OsConnect file]\n"
 msgstr ""
 "\n"
 "Aufruf: %s [Parameter] [Host][:Displaynummer]\n"
 "        %s [Parameter] [Host][::Port]\n"
 "        %s [Parameter] [Unix-Socket]\n"
 "        %s [Parameter] -listen [Port]\n"
-"        %s [Parameter] [.tigervnc-Datei]\n"
+"        %s [Parameter] [.OsConnect-Datei]\n"
 
 #: vncviewer/vncviewer.cxx:465
 #, c-format

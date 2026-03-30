@@ -22,12 +22,12 @@ chmod a+w ${CURDIR}/rpmbuild/{BUILD,BUILDROOT,SRPMS,RPMS}
 ## Copy over the packaging files
 
 cp ${RPMDIR}/SOURCES/* ${CURDIR}/rpmbuild/SOURCES
-cp ${RPMDIR}/SPECS/tigervnc.spec ${CURDIR}/rpmbuild/SPECS
-sed -i "s/@VERSION@/${VERSION}/" ${CURDIR}/rpmbuild/SPECS/tigervnc.spec
+cp ${RPMDIR}/SPECS/OsConnect.spec ${CURDIR}/rpmbuild/SPECS
+sed -i "s/@VERSION@/${VERSION}/" ${CURDIR}/rpmbuild/SPECS/OsConnect.spec
 
 ## Copy over the source code
 
-(cd ${TOPDIR} && git archive --prefix tigervnc-${VERSION}/ HEAD) | bzip2 > ${CURDIR}/rpmbuild/SOURCES/tigervnc-${VERSION}.tar.bz2
+(cd ${TOPDIR} && git archive --prefix OsConnect-${VERSION}/ HEAD) | bzip2 > ${CURDIR}/rpmbuild/SOURCES/OsConnect-${VERSION}.tar.bz2
 
 ## Download the xorg-server source code
 
@@ -35,12 +35,12 @@ curl -L https://xorg.freedesktop.org/releases/individual/xserver/xorg-server-21.
 
 ## Start the build
 
-docker run --volume ${CURDIR}/rpmbuild:/home/rpm/rpmbuild --interactive --rm tigervnc/${DOCKER} \
+docker run --volume ${CURDIR}/rpmbuild:/home/rpm/rpmbuild --interactive --rm OsConnect/${DOCKER} \
 	bash -e -x -c "
-	sudo dnf builddep -y ~/rpmbuild/SPECS/tigervnc.spec
+	sudo dnf builddep -y ~/rpmbuild/SPECS/OsConnect.spec
 	sudo chown 0.0 ~/rpmbuild/SOURCES/*
 	sudo chown 0.0 ~/rpmbuild/SPECS/*
-	rpmbuild -ba ~/rpmbuild/SPECS/tigervnc.spec
+	rpmbuild -ba ~/rpmbuild/SPECS/OsConnect.spec
 	"
 
 mkdir -p ${CURDIR}/result

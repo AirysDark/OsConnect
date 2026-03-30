@@ -21,7 +21,7 @@ chmod a+w ${CURDIR}/build
 
 ## Copy over the source code
 
-(cd ${TOPDIR} && git archive --prefix tigervnc-${VERSION}/ HEAD) | xz > ${CURDIR}/build/tigervnc_${VERSION}.orig.tar.xz
+(cd ${TOPDIR} && git archive --prefix OsConnect-${VERSION}/ HEAD) | xz > ${CURDIR}/build/OsConnect_${VERSION}.orig.tar.xz
 
 ## Copy over the packaging files
 
@@ -32,26 +32,26 @@ chmod a+x ${CURDIR}/build/debian/rules
 # Assemble a fake changelog entry to get the correct version
 
 cat - > ${CURDIR}/build/debian/changelog << EOT
-tigervnc (${VERSION}-1ubuntu1) UNRELEASED; urgency=low
+OsConnect (${VERSION}-1ubuntu1) UNRELEASED; urgency=low
 
   * Automated build for TigerVNC
 
- -- Build bot <tigervncbot@tigervnc.org>  $(date -R)
+ -- Build bot <OsConnectbot@OsConnect.org>  $(date -R)
 
 EOT
 cat ${DEBDIR}/debian/changelog >> ${CURDIR}/build/debian/changelog
 
 ## Start the build
 
-docker run --volume ${CURDIR}/build:/home/deb/build --interactive --rm tigervnc/${DOCKER} \
+docker run --volume ${CURDIR}/build:/home/deb/build --interactive --rm OsConnect/${DOCKER} \
 	bash -e -x -c "
-	tar -C ~/build -axf ~/build/tigervnc_${VERSION}.orig.tar.xz
-	cp -a ~/build/debian ~/build/tigervnc-${VERSION}/debian
+	tar -C ~/build -axf ~/build/OsConnect_${VERSION}.orig.tar.xz
+	cp -a ~/build/debian ~/build/OsConnect-${VERSION}/debian
 	sudo apt-get update
-	mk-build-deps ~/build/tigervnc-${VERSION}/debian/control
+	mk-build-deps ~/build/OsConnect-${VERSION}/debian/control
 	sudo DEBIAN_FRONTEND=noninteractive \
-	    apt-get install -y ~/tigervnc-build-deps_*.deb
-	cd ~/build/tigervnc-${VERSION} && dpkg-buildpackage
+	    apt-get install -y ~/OsConnect-build-deps_*.deb
+	cd ~/build/OsConnect-${VERSION} && dpkg-buildpackage
 	"
 
 mkdir -p ${CURDIR}/result
